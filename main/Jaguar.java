@@ -1,15 +1,15 @@
 package main;
 import main.Animal;
 
-public class Jaguar extends Animal  implements IFelino {
+public class Jaguar extends Animal  implements IFelinoSalvaje {
     private int edad;
-    private String peso;
+    private double peso;
 
     public int getEdad() {
         return edad;
     }
 
-    public Jaguar(int edad, String peso) {
+    public Jaguar(int edad, double peso) {
         this.edad = edad;
         this.peso = peso;
     }
@@ -18,11 +18,11 @@ public class Jaguar extends Animal  implements IFelino {
         this.edad = edad;
     }
 
-    public Jaguar(String peso) {
+    public Jaguar(double peso) {
         this.peso = peso;
     }
 
-    public String getPeso() {
+    public double getPeso() {
         return peso;
     }
 
@@ -30,15 +30,12 @@ public class Jaguar extends Animal  implements IFelino {
         this.edad = edad;
     }
 
-    public void setPeso(String peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
     public void rugir() {
         System.out.println("Rugido de Jaguar");
-    }
-    public void maullar() {
-        throw new UnsupportedOperationException("Jaguar no maulla.");
     }
 
     public void cazar() {

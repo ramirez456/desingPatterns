@@ -2,14 +2,14 @@ package main;
 public class Main {
     public static void main(String[] args) {
 
-        Rectangulo rectangulo = new Rectangulo(10, 20);
-        Triangulo triangulo = new Triangulo(5, 15);
+        IFelino yagua = new Jaguar(10,14.5);
+        yagua.cazar();
 
-        Presentacion presentacion = new Presentacion();
+        Jaguar jaguar1 = new Jaguar(10,14.5);
+        jaguar1.cazar();
 
-
-        presentacion.area(rectangulo);
-        presentacion.area(triangulo);
+        IFelinoSalvaje jaguar2 = new Jaguar(10,14.5);
+        jaguar1.cazar();
 
     }
 }
