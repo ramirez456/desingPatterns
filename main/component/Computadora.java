@@ -1,16 +1,12 @@
 package main.component;
 
 public class Computadora {
-    private Mouse mouse;
-    private Teclado teclado;
+    private IMouse mouse;
+    private ITeclado teclado;
 
-    public Computadora(Mouse mouse, Teclado teclado) {
+    public Computadora(IMouse mouse, ITeclado teclado) {
         this.mouse = mouse;
         this.teclado = teclado;
-    }
-    public Computadora() {
-        this.mouse = new Mouse();
-        this.teclado = new Teclado();
     }
 
     public void encender() {

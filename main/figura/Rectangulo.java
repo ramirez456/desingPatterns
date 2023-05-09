@@ -1,6 +1,6 @@
-package main;
+package main.figura;
 
-public class Rectangulo implements IFigura{
+public class Rectangulo implements IFigura {
     private double base;
     private double altura;
 

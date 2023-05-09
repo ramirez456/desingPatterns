@@ -1,6 +1,6 @@
-package main;
+package main.figura;
 
-public class Triangulo implements IFigura{
+public class Triangulo implements IFigura {
     private double base;
     private double altura;
 

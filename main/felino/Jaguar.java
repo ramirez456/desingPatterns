@@ -1,5 +1,4 @@
-package main;
-import main.Animal;
+package main.felino;
 
 public class Jaguar extends Animal  implements IFelinoSalvaje {
     private int edad;

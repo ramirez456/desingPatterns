@@ -1,4 +1,4 @@
-package main;
+package main.figura;
 
 public class Presentacion {
     public void  area(IFigura figura){
